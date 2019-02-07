@@ -1,0 +1,24 @@
+/* Created by Axel Dezittere and Arvid Dezittere */
+/* not in use anymore, this css file is unused in the Colab project */
+.navbar{
+    height: auto;
+    background-color: #2979ff;
+    color: white;
+    text-align: left;
+}
+.item_nav{
+  float: left;
+  height: 100%;
+  text-align: center;
+}
+.item_nav:hover{
+  background-color: red;
+}
+.a_nav{
+  color: white;
+  font-size: 20px;
+}
+@font-face{
+  font-family: font_nav;
+  src: url(https://fonts.googleapis.com/css?family=Slabo+27px);
+}

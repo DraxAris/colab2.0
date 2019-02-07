@@ -1,0 +1,51 @@
+/* Created by Axel and Arvid Dezittere */
+/* left column style */
+.column_left{
+  margin-top: 0px;
+  margin-left: 5px;
+  float: left;
+  width: 20%;
+  text-align: left;
+  border-radius: 15px;
+  background-color: #ede7f6;
+  height: 800px;
+}
+.column_h4{
+  text-align: center;
+  width: 100%;
+  background-color: #26a69a;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.column_h4:hover{
+  color: white;
+}
+.column_item{
+  width: 95%;
+  background-color: #b2dfdb;
+  text-align: center;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 2px;
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+/* center column style */
+.column_center{
+  width: 80%;
+  margin: auto;
+  margin-top: 5px;
+  height: 300px;
+  border-radius: 15px;
+  background-color: #ede7f6;
+}
+.column_item_center{
+  width: 95%;
+  background-color: #e53935;
+  text-align: center;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 2px;
+  font-size: 20px;
+  margin-bottom: 2px;
+}

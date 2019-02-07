@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>Guide | Colab</title>
+        <link rel="stylesheet" type="text/css" href="../pricing/boostrap.css">
+        <script src="../../scripts/jquery/jquery.js"></script>
+        <script src="../../scripts/bootstrap/bootstrap.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+    </head>
+    <body>
+        <div class="card">
+            <div class="card-header">
+                Installing and setup of Colab
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">How to install and setup Colab?</h5>
+                    <ol class="card-text">
+                        <li>Put the Colab folders in the htcdocs of your hosting program</li>
+                        <li>Go to the server adres <strong>example: localhost/colab/pages</strong></li>
+                        <li>Follow the instructions on screen</li>
+                    </ol>
+                <div class="alert alert-info">
+                    <strong>To use Colab you will need a program like Mamp to host Colab.</strong>
+                </div>
+                <a href="#" class="btn btn-primary">Get help</a>
+                <a tabindex="0" class="btn btn-primary" role="button" data-toggle="popover" data-trigger="focus" title="Wich hosting program should I use?" data-content="We recommend MAMP Pro or WAMP or an Apache server on Ubuntu" style="float: right" id="pop">Hosting Program</a>
+                <script>
+                $(function () {
+                    $('[data-toggle="popover"]').popover()
+                })
+                </script>
+            </div>
+        </div><br>
+        
+        <div class="card">
+            <div class="card-header">
+                Adding Modules in Colab
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">What are Modules?</h5>
+                    <p class="card-text">Modules are parts you can add to Colab to let Colab integrate with other services or even to use and create your own services for Colab that you and your organistion can use. Modules for Colab can codded in: Php, Javascript, Html, Css, Jquery, Python, ... You can use modules to change the style of the page or add new functions to Colab.</p>
+                <h4 class="card-title">How do I add Modules?</h4>
+                    <ol class="card-text">
+                        <li>Go to the <strong>Modules</strong> folder.</li>
+                        <li>Create a new folder for your module</li>
+                        <li>Link your module on the page in the folder <strong>pages</strong> or <strong>head (if you want to add css)</strong></li>
+                        <li>Restart the hosting programs</li>
+                    </ol>
+                <div class="alert alert-danger">
+                    <i class="fas fa-exclamation-triangle"></i> <strong style="font-size: 17px">We advice you to add Modules when nobody is using the website or copy the Colab files to add it their first and then upload it to the server after testing it out.</strong>
+                </div>
+                <a href="#" class="btn btn-primary">Get help</a>
+            </div>
+        </div><br>
+        
+        <div class="card">
+            <div class="card-header">
+                Adding Guest Accounts
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">For what should you use it?</h5>
+                    <p class="card-text">With guests account you can give visitors, parents, ... acces to a limited part of the system during their visit. You can block sertain parts of Colab for them you can give them acces to certain files, ...</p>
+                <h4 class="card-title">How do I add a guest account?</h4>
+                    <ol class="card-text">
+                        <li>Login as an <strong>Admin</strong></li>
+                        <li>Go to <strong>Add</strong></li>
+                        <li>Click add user</li>
+                        <li>Select as user <strong>function</strong> guest</li>
+                        <li>Enter a username and password <strong>(password is not needed for a guest account)</strong></li>
+                        <li>Click add</li>
+                    </ol>
+                <div class="alert alert-danger">
+                    <i class="fas fa-exclamation-triangle"></i> <strong style="font-size: 17px">Guest accounts normaly only exist for 48 hours! If you want them to be able to acces their account longer then click on the time button. A guest account will be removed automaticly after 5 days!</strong>
+                </div>
+                <div class="alert alert-info">
+                    <strong>To add a normal user you just follow the same steps but you select as a user function: normal user.</strong>
+                </div>
+                <div class="alert alert-primary">
+                    <p>All user functions:</p>
+                    <ul>
+                        <li>Super Admin (first user created)</li>
+                        <li>Admin</li>
+                        <li>Moderator</li>
+                        <li>Normal user</li>
+                        <li>Guest</li>
+                        <li>Parent</li>
+                        <li>Teacher</li>
+                        <li>Director</li>
+                    </ul>
+                </div>
+                <a href="#" class="btn btn-primary">Get help</a>
+            </div>
+        </div>
+    </body>
+</html>
